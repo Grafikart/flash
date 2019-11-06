@@ -2,9 +2,11 @@
 
 namespace Felix\Flash;
 
-class Utils
+abstract class Utils
 {
-
+    /**
+     * @internal
+     */
     public static function array_flatten($array = null): array
     {
         $result = array();
